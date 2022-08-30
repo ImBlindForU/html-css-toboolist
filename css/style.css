@@ -68,8 +68,16 @@ header{
 
 ul{
     list-style-type: none;
+    padding-top: 3rem;
 }
 
+li{
+    padding-top: 2rem;
+}
+.font{
+    font-size: 1.1rem;
+    font-weight: 5390;
+}
 .circle{
     border: 2px solid black;
     padding: 2px;
@@ -82,4 +90,36 @@ ul{
 .green{
     border-color: lightgreen;
     color: lightgreen;
+}
+
+.red{
+    border-color: red;
+    color: red;
+}
+
+.label{
+    color: white;
+    padding: 0.6rem;
+    border-radius: 15px;
+    border: 2px solid none;
+}
+
+.blu{
+    background-color:  #47adf1;
+}
+
+.purple{
+    background-color: purple;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.fucsia{
+    background-color: blueviolet;
+}
+
+.acidgreen{
+    background-color: greenyellow;
 }
