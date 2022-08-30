@@ -2,16 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family:arial;
 }
 /* headeer */
 body{
     background-color:#f6f8f9;
 }
 
-header{
-    margin: 0 2%;
-}
 .title{
     background-color: white;
 }
@@ -59,6 +56,7 @@ header{
 
 .bot{
     margin-top: 3px;
+    padding-bottom: 4rem;
 }
 
 .ml{
@@ -75,11 +73,12 @@ li{
     padding-top: 2rem;
 }
 .font{
-    font-size: 1.1rem;
-    font-weight: 5390;
+    font-size: 1.5rem;
+    font-family:sans-serif;
+    margin-left: 10px;
 }
 .circle{
-    border: 2px solid black;
+    border: 3px solid black;
     padding: 2px;
     border-radius: 50%;
     width: 2%;
@@ -88,15 +87,18 @@ li{
 }
 
 .green{
-    border-color: lightgreen;
-    color: lightgreen;
+    border-color:#92d4c4;
+    color: #92d4c4;
 }
 
 .red{
-    border-color: red;
-    color: red;
+    border-color:#f18e89;
+    color: #f18e89;
 }
 
+h2{
+    font-size: 2rem;
+}
 .label{
     color: white;
     padding: 0.6rem;
@@ -109,17 +111,24 @@ li{
 }
 
 .purple{
-    background-color: purple;
+    background-color:#9c72e4;
 }
 
+.g{
+    background-color: #64c0a9;
+}
 .orange{
-    background-color: orange;
+    background-color:#f29e33;
 }
 
-.fucsia{
-    background-color: blueviolet;
+.f{
+    background-color:#d863a1;
 }
 
-.acidgreen{
-    background-color: greenyellow;
+.ag{
+    background-color: #b0c926;
+}
+
+.pb{
+    padding-bottom: 3rem;
 }
