@@ -1,3 +1,19 @@
-body{
-    background-color: red;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+.title img{
+    margin-top: 10px;
+}
+
+.title span{
+    font-size: 3rem;
+    line-height: 80px;
+    vertical-align: top;
+    font-weight: bold;
 }
