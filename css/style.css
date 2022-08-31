@@ -2,24 +2,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:arial;
+    
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
 }
 /* headeer */
 body{
     background-color:#f6f8f9;
+    
 }
 
 .title{
     background-color: white;
 }
 .title img{
-    margin-top: 10px;
+    vertical-align: middle;
 }
 
 .title span{
     font-size: 3rem;
     line-height: 80px;
-    vertical-align: top;
+    vertical-align: middle;
     font-weight: bold;
 }
 
